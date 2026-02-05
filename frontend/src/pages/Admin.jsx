@@ -1,22 +1,24 @@
 import { useEffect, useState } from "react";
 
-export default function Admin() {
+const API = import.meta.env.VITE_API_BASE_URL;
 
+fetch(`${API}/admin/sos-logs`)
+
+
+export default function Admin() {
   const [logs, setLogs] = useState([]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/admin/sos-logs")
+    fetch(`${API}/admin/sos-logs`)
       .then(res => res.json())
       .then(data => setLogs(data));
   }, []);
 
   return (
     <div style={{ padding: "30px", color: "white" }}>
-
       <h2>🚨 SheGuard Admin Dashboard</h2>
 
       <table border="1" cellPadding="10" style={{ width: "100%", marginTop: "20px" }}>
-
         <thead>
           <tr>
             <th>#</th>
@@ -44,9 +46,7 @@ export default function Admin() {
             </tr>
           ))}
         </tbody>
-
       </table>
-
     </div>
   );
 }
