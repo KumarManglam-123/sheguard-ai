@@ -1,0 +1,139 @@
+body {
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* SOS Button */
+
+.sos-btn {
+  background: linear-gradient(135deg, #ff0000, #ff4d4d);
+  color: white;
+  padding: 18px 45px;
+  font-size: 20px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0px 0px 20px rgba(255,0,0,0.6);
+  transition: all 0.3s ease;
+}
+
+.sos-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 35px rgba(255,0,0,0.9);
+}
+
+.contact-box {
+  background: rgba(10,20,40,0.9);
+  padding: 20px;
+  border-radius: 15px;
+  width: 350px;
+  margin-top: 30px;
+  box-shadow: 0 0 20px rgba(0,255,255,0.2);
+}
+
+.contact-box h2 {
+  color: #00e5ff;
+  text-align: center;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background: #00e5ff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #00bcd4;
+}
+
+.contact-list {
+  margin-top: 15px;
+}
+
+.contact-card {
+  background: rgba(0,0,0,0.6);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.contact-box {
+  background: #0b1220;
+  padding: 25px;
+  border-radius: 15px;
+  color: white;
+  width: 350px;
+  box-shadow: 0px 0px 20px rgba(0,255,255,0.2);
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background: #00ffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  background: #111827;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+.sos-btn {
+  width: 100%;
+  padding: 16px;
+  border-radius: 14px;
+  font-size: 22px;
+  border: none;
+
+  background: rgba(255, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);
+  animation: pulse 1.5s infinite;
+}
+
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0px red; }
+  50% { box-shadow: 0 0 20px red; }
+  100% { box-shadow: 0 0 0px red; }
+}
+
+

@@ -1,0 +1,48 @@
+.chat-container {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(15px);
+  border-radius: 16px;
+  padding: 15px;
+  height: 420px;
+}
+
+
+.chat-box {
+  flex: 1;
+  background: #020617;
+  border-radius: 12px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.user {
+  background: rgba(37, 99, 235, 0.6);
+  backdrop-filter: blur(8px);
+}
+
+.ai {
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(8px);
+}
+
+
+.chat-controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.chat-controls input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.chat-controls button {
+  background: #38bdf8;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}

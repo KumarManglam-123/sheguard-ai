@@ -1,0 +1,54 @@
+.contact-box {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+
+.contact-box h2 {
+  color: #38bdf8;
+  margin-bottom: 15px;
+}
+
+.contact-inputs input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.contact-inputs button {
+  width: 100%;
+  padding: 12px;
+  background: #22c55e;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-inputs button:hover {
+  background: #16a34a;
+}
+
+.contact-list {
+  margin-top: 15px;
+}
+
+.contact-item {
+  background: #0f172a;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.empty-text {
+  color: #aaa;
+  text-align: center;
+}
